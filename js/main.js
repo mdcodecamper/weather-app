@@ -12,9 +12,7 @@ $(document).ready(function(){
 
         console.log(api);
 
-        $.getJSON(api, function(v1){
 
-        });
     });
 
 });

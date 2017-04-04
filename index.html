@@ -12,22 +12,34 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 
-    <scrpit src="https://code.jquery.com/jquery-3.0.0.min.js"></scrpit>
+    <!--<scrpit src="https://code.jquery.com/jquery-3.0.0.min.js"></scrpit>-->
+
+    <script
+            src="https://code.jquery.com/jquery-1.12.4.min.js"
+            integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+            crossorigin="anonymous"></script>
+
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <scrpit src="js/main.js"></scrpit>
 
 
 
 </head>
 <body>
 
-<div class="container-fluid" id="main-container">
+<div class="container-fluid text-center" id="main-container">
     <div id="bg-image"></div>
     <div id="weather-container">
         <div id="weather-box">
-            <div id="city-box"></div>
+            <div id="city-box">
+                New York, USA
+            </div>
             <div class="row">
                 <div id="weather">
-                    0 <a id="btn-degree">&deg;C</a>
+                    0
                 </div>
+                <a id="btn-degree">&deg;C</a>
+
             </div>
             <div class="row">
                 <div id="wind">
@@ -44,55 +56,62 @@
         <div id="other-days">
             <div class="forcastDay">
                 <div class="forcastIcons">
-                    <img class="fcIcon" src="" alt="weather-icon">
-                    <div class="forecastText"></div>
-                    <div class="forecastTemp">
-                        <span class="frc-temp"></span>
-                        <a class="frc-degree" href="#">&deg;C</a>
-                    </div>
+                    <img class="fcIcon" src="images/codes/800.png" alt="weather-icon">
+
+                </div>
+                <div class="forecastText">Monday</div>
+                <div class="forecastTemp">
+                    <span class="frc-temp">0</span>
+                    <a class="frc-degree" href="#">&deg;C</a>
                 </div>
             </div>
             <div class="forcastDay">
                 <div class="forcastIcons">
-                    <img class="fcIcon" src="" alt="weather-icon">
-                    <div class="forecastText"></div>
-                    <div class="forecastTemp">
-                        <span class="frc-temp"></span>
-                        <a class="frc-degree" href="#">&deg;C</a>
-                    </div>
+                    <img class="fcIcon" src="images/codes/801.png" alt="weather-icon">
+
+                </div>
+                <div class="forecastText">Tuesday</div>
+                <div class="forecastTemp">
+                    <span class="frc-temp">0</span>
+                    <a class="frc-degree" href="#">&deg;C</a>
                 </div>
             </div>
             <div class="forcastDay">
                 <div class="forcastIcons">
-                    <img class="fcIcon" src="" alt="weather-icon">
-                    <div class="forecastText"></div>
-                    <div class="forecastTemp">
-                        <span class="frc-temp"></span>
-                        <a class="frc-degree" href="#">&deg;C</a>
-                    </div>
+                    <img class="fcIcon" src="images/codes/202.png" alt="weather-icon">
+
+                </div>
+                <div class="forecastText">Wednesday</div>
+                <div class="forecastTemp">
+                    <span class="frc-temp">0</span>
+                    <a class="frc-degree" href="#">&deg;C</a>
                 </div>
             </div>
             <div class="forcastDay">
                 <div class="forcastIcons">
-                    <img class="fcIcon" src="" alt="weather-icon">
-                    <div class="forecastText"></div>
-                    <div class="forecastTemp">
-                        <span class="frc-temp"></span>
-                        <a class="frc-degree" href="#">&deg;C</a>
-                    </div>
+                    <img class="fcIcon" src="images/codes/800.png" alt="weather-icon">
+
+                </div>
+                <div class="forecastText">Thursday</div>
+                <div class="forecastTemp">
+                    <span class="frc-temp">0</span>
+                    <a class="frc-degree" href="#">&deg;C</a>
                 </div>
             </div>
             <div class="forcastDay">
                 <div class="forcastIcons">
-                    <img class="fcIcon" src="" alt="weather-icon">
-                    <div class="forecastText"></div>
-                    <div class="forecastTemp">
-                        <span class="frc-temp"></span>
-                        <a class="frc-degree" href="#">&deg;C</a>
-                    </div>
+                    <img class="fcIcon" src="images/codes/800.png" alt="weather-icon">
+
+                </div>
+                <div class="forecastText">Friday</div>
+                <div class="forecastTemp">
+                    <span class="frc-temp">0</span>
+                    <a class="frc-degree" href="#">&deg;C</a>
                 </div>
             </div>
         </div>
+
+
     </div>
 
 </div>
@@ -101,8 +120,7 @@
 
 
 
-<script src="js/bootstrap/bootstrap.min.js"></script>
-<scrpit src="js/main.js"></scrpit>
+
 
 </body>
 </html>
